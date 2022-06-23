@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin: 0; padding: 0; background-image:url(../images/top-bg.jpg); background-repeat:repeat-x; font-size:15px;	line-height:20px; color: #767676; -webkit-font-smoothing: subpixel-antialiased; font-family:'FjallaOne', Arial;  }
+
+
+*::selection{ background: #0f75bc; color: #fff; }
+*::-moz-selection{ background: #0f75bc; color: #fff; }
+
+/*This css style will prevent skype from formatting the numbers in web-page*/
+span.skype_pnh_container{ display: none; }
+span.skype_pnh_print_container{ display: inline; }
+
+@font-face {
+    font-family: 'FjallaOne';
+    src: url('../fonts/FjallaOne-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+
+
+/*Default CSS*/
+:focus { outline:0; }
+img{ border: none;  outline: none; }
+a{ color: #1c1c1c;   text-decoration: none; outline: none; -moz-transition:all 0.8s ease; -webkit-transition:all 0.8s ease; transition:all 0.8s ease; }
+a:hover { color: #f26722; text-decoration: none; }
+a:active { outline:none; }
+a img { outline: none; filter:alpha(opacity=100); -moz-opacity: 1.0; opacity: 1.0; -khtml-opacity: 1.0;}
+a img:hover{ filter:alpha(opacity=80); -moz-opacity: 0.8; opacity: 0.8; -khtml-opacity:0.8;}
+
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+
+h1{ margin:0px; font-size:30px; color:#0f75bc; font-family:"Oswald", Arial, Helvetica, sans-serif; padding-bottom:5px; } 
+h2{ -webkit-font-smoothing: subpixel-antialiased; font-family:'FjallaOne', Arial; color:#000; font-size:30px;}
+h3{ -webkit-font-smoothing: subpixel-antialiased; font-family:'FjallaOne', Arial; color:#8b8b8b; font-size:18px; font-weight:normal; line-height:22px;}
+.head4 {font-size:14px; color:#8d8d8d; font-family:"Oswald", Arial, Helvetica, sans-serif; font-weight:normal; -webkit-font-smoothing: subpixel-antialiased;}
+.mailinfo {font-size:20px; padding-top:5px; color:#8d8d8d; font-family:"Oswald", Arial, Helvetica, sans-serif; font-weight:bold; -webkit-font-smoothing: subpixel-antialiased;}
+
+
+ul{	padding: 0px; margin: 0px; padding-left: 0px; }
+li{	line-height: 22px; list-style:none; background:url(../images/tick-img.jpg) no-repeat 0px 8px; padding-left:15px; outline: none;}
+p{	margin: 0px; line-height: 20px; padding:7px 0px;}
+
+.cleardiv{clear: both;}
+
+
+#container
+{
+	width:1000px; margin:0 auto;
+}
+
+
+.social-sec
+{
+	width:300px; text-align:center;  margin:0px; padding-top:5px;
+}
+.social-sec img
+{
+	 margin-right:0px;
+}
+
+.top-sec
+{
+	width:auto; margin:0 auto; padding-top:5px;
+}
+.fam
+{
+	float:left; margin:0px; text-align: center; width:50%; padding-top:50px;
+}
+.top-right
+{
+	width:50%; float:left; padding-top:40px; 
+}
+.hous
+{
+	margin:0px; font-size:20px; color:#0f75bc; font-weight:bold; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-align:center;
+}
+
+/*Navigation*/
+#menubar{ width:auto; background:none; margin:0px; padding:0px; border:none; margin-top:10px;}
+.help { font: 35px "Oswald",Verdana, sans-serif; font-weight:bold; text-align: center; color: #fff; text-shadow: 2px 2px #231f20;}
+.help2 { font: 20px "Oswald",Verdana, sans-serif; font-weight:bold; text-align: center; color: #fff; text-shadow: 2px 2px #231f20;}
+
+
+
+.mid-sec
+{
+	width:auto; margin:0 auto; margin-top:15px;
+}
+.slider-sec
+{
+	height:210px; text-align:center; margin:0px; padding:1px 0px 0px 1px; border-bottom: groove #dfdfdf 1px;
+}
+
+
+.ad-sec
+{
+	width:1000px; margin:0 auto; margin-top:35px;
+}
+
+.ad-1
+{
+	width:250px; height:80px; background:url(../images/line.png) no-repeat right; float:left; margin: 0 50px 0 0; padding:0px 15px 0px 15px;
+}
+
+
+.ad-2
+{
+	width:300px; height:80px; float:left; margin:0 50px 0 0; background:url(../images/line.png) no-repeat right; padding:0px 15px 0px 15px;
+}
+
+.ad-3
+{
+	width:300px; height:80px; float:right; margin:0px;  padding:0px 15px 0px 15px;
+}
+
+
+
+.footer-sec
+{
+	width:auto; margin: 0 auto; padding:10px 15px 10px 15px; 
+	color:#544b4b; font-size:14px; font-weight:normal; font-family:'ProximaNovaRegular', Arial;
+}
